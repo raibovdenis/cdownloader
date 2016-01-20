@@ -7,6 +7,6 @@
 ```sh
 $ git clone https://github.com/raibovdenis/cdownloader.git
 $ cd cdownloader
-$ gradlew build (windows) or ./gradlew build (linux)
+$ gradlew build (windows) or ./gradlew build (linux - try "chmod 777 ./gradlew" if permission error)
 $ java -jar utility.jar -n 5 -l 300k -o output_folder -f links.txt
 ```
